@@ -29,7 +29,7 @@ Join in progress calls initiated by other therapists.
 Add/Edit/Delete lesson plans and worksheets (student notebook).
 Leave comments for a student.
 
-Go here to learn Adding a therapist.
+Go here to learn <a href="#adding-a-therapist">Adding a therapist</a>.
 
 ###Teacher: 
 View all students from their assigned school.
@@ -37,31 +37,31 @@ View student lesson plans and worksheets (student notebook).
 Join video calls initiated by therapist (assigned students only).
 Leave comments for a student
 
-Go here to learn Adding a teacher.
+Go here to learn <a href="#adding-a-teacher">Adding a teacher</a>.
 
 ###Student:
 View their own student profile.
 Join video calls initiated by therapist.
 View their own lesson plans and worksheets (student notebook).
 
-Go here to learn Adding a student.
+Go here to learn <a href="#adding-a-student">Adding a student</a>.
 
 ##Schools
 Schools are an organizational feature in Myskybridge. Schools are what group teachers and students together. They are also used as a sorting / filtering feature for therapists.
 
-Go here to learn Adding a school.
+Go here to learn <a href="#adding-a-school">Adding a school</a>.
 
 ##Adding a student
 Every student that is created must be assigned a teacher, school, and therapist. 
 
 Only therapists can create students, so by default the student will be assigned to the therapist that is creating the student. You can select a different therapist be assigned to that student from the dropdown menu if the therapist has already been created in Myskybridge. 
 
-Go here to learn Adding a therapist.
+Go here to learn <a href="#adding-a-therapist">Adding a therapist</a>.
 
 Before you can create a student, you must add a teacher and school. The student profile will list the currently available students and school.
 
-Go here to learn Adding a teacher.
-Go here to learn Adding a school.
+Go here to learn <a href="#adding-a-teacher">Adding a teacher</a>.
+Go here to learn <a href="#adding-a-school">Adding a school</a>.
 
 To create your first student, visit the user admin page from the menu dropdown in the upper right hand corner of Myskybridge.
 
@@ -74,12 +74,12 @@ You will need to create a unique username and secret password. If the username i
 
 Fill out the additional required information and additional profile fields, and click save. The student will now be listed in the student library.
 
-Go here to learn more about Managing students.
+Go here to learn <a href="#managing-students">Managing students</a>.
 
 ##Adding a teacher
 To add a teacher, first you must create a school.
 
-Go here to learn Adding a school.
+Go here to learn <a href="#adding-a-school">Adding a school</a>.
 
 To create your first teacher, visit the user admin page from the menu dropdown in the upper right hand corner of Myskybridge.
 
@@ -92,7 +92,7 @@ You will need to create a unique username and secret password. If the username i
 
 Fill out the required information and additional profile fields, and click save. The teacher will now be listed in the user admin screen. The teacher will also be available to assign students.
 
-Go here to learn Editing/Deleting teachers
+Go here to learn <a href=“#editing-deleting-teachers”>Editing/Deleting teachers</a>.
 
 ##Adding a therapist
 To create a therapist, visit the user admin page from the menu dropdown in the upper right hand corner of Myskybridge.
@@ -112,7 +112,7 @@ You will have the option of making the therapist an Admin. You can toggle admin 
 
 An administrator has the ability to Add/Edit/Delete therapists.
 
-Go here to learn about user types.
+Go here to learn <a href=“#user-types”>User types</a>.
 
 
 ##Creating a video classroom
@@ -122,7 +122,7 @@ To create a classroom, a therapist will first visit the student list from the ma
 
 After checking the Connect boxes for each of the students to invite to the call, you will click ‘Start Video Session’. You will be redirected to the video call, and will need to authorize Myskybridge to access your computers camera and microphone. You should receive a notification asking permission. 
 
-If you do not receive a notification, or are having trouble starting a video session, you can go to the Video Troubleshooting article to learn more.
+If you do not receive a notification, or are having trouble starting a video session, you can go to the <a href=“#video-troubleshooting”>Video troubleshooting</a> article to learn more.
 
 All students will receive a notification that they have been invited to the video session. 
 
@@ -133,7 +133,7 @@ Student’s will need to click the ‘Join video bridge’ link in the upper rig
 
 Teachers, whose students have been invited to a video session, will also receive a notification. They can join the video session by clicking the ‘Join video bridge’.
 
-If students or teachers do not receive a notification, or if they are having trouble starting a video session, go to the Video Troubleshooting article to learn more.
+If students or teachers do not receive a notification, or if they are having trouble starting a video session, go to the <a href=“#video-troubleshooting”>Video troubleshooting</a> article to learn more.
 
 
 
@@ -222,14 +222,14 @@ The students screen (available from the global navigation) shows a list of stude
 
 From the top of the student screen, you can create a new student by clicking ‘+ Create New Student’. 
 
-Go here to learn more about creating students.
+Go here to learn <a href=“#creating-students”>Creating students</a>.
 
 To make finding a specific student easier, Myskybridge has search and filtering capabilities. You can search by entering a keyword in the search bar and clicking the magnifying glass. The student list will update and only list students that meet the search criteria. You can also filter the student by school, or grade.
 
 Once you’ve located the student record, you can access their profile information, open the notebook, or invite the student to a video session.
 
-Go here to learn about creating a video classroom.
-Go here to learn about using student notebooks.
+Go here to learn about <a href=“#creating-a-video-classroom”>Creating a video classroom</a>.
+Go here to learn about <a href=“#using-student-notebooks”>Using student notebooks</a>.
 
 Locate and click the student record you would like to edit. You are now directed to the Profile / Edit Student screen. The profile information is broken out into 3 categories.
 
@@ -251,7 +251,7 @@ Additional information is the student contact/parent information and age.
 
 Therapist admin information includes the grade, school, teacher and important assessment dates. Every student must have a School / Teacher / Therapist assigned before the profile can be saved.
 
-Go here to learn about adding a student.
+Go here to learn <a href="#adding-a-student">Adding a student</a>.
 
 ####Profile Picture
 Myskybridge had the ability to upload a picture of the user.
@@ -267,14 +267,14 @@ If you are deleting the user, click delete, you will be asked to confirm your ac
 ##Editing/Deleting schools
 In the Myskybridge application, schools serve as an organizational feature for both students and teachers. The school admin screen can be access via the user library.
 
-Go here to learn more about User Profiles / User Admin.
+Go here to learn about <a href=“#user-profiles-user-admin”>User profiles / User admin</a>.
 
 
 <img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2012.03.02.png" />
 
 The school admin page is used to create/edit/delete schools. 
 
-Go here to learn more about adding a school.
+Go here to learn <a href="#adding-a-school">Adding a school</a>.
 
 To edit/delete a school, you first will locate the school in the Edit Schools list. Click on the school name. You will then have the ability to change the school name, or delete the school.
 
@@ -290,9 +290,9 @@ Myskybridge seeks to keep the students at the center of everything we do. To sup
 <img class="doc-img" src="/images/docs/screenshot-staging.myskybridge.com%202014-10-14%2014-52-26.png" />
 The notebook is where all the lesson plans, worksheets, progress, and comments are kept for a specific student.
 
-Go here to learn about Creating a new lesson plan.
-Go here to learn about Creating a new worksheet.
-Go here to learn about Adding worksheets to lesson plans.
+Go here to learn about <a href=“#creating-a-new-lesson-plan”>Creating a new lesson plan</a>.
+Go here to learn about <a href=“#creating-a-new-worksheet”>Creating a new worksheet</a>.
+Go here to learn about <a href=“#adding-worksheets-to-lesson-plans”>Adding worksheets to lesson plans</a>.
 
 
 ##Creating a new lesson plan
@@ -302,7 +302,7 @@ A **lesson plan** is a therapist’s detailed description of the course of instr
 
 Lesson plans can be created to be used for multiple students (template), or custom for a single student.
 
-Go here to learn about Customizing lesson plans.
+Go here to learn about <a href=“#customizing-lesson-plans”>Customizing lesson plans</a>.
 
 To create a lesson plan template (a lesson plan that is available to be used for multiple students), you will first click on the plans navigation menu.
 
@@ -310,7 +310,7 @@ You will be directed to the lesson plan library. The lesson plan library will li
 
 You will then enter the title, goal, target objective, and grade of lesson plan. If you have already created worksheets you can click ‘Select Worksheet’ and attach the appropriate collection of worksheets.
 
-Go here to learn more about Creating a new worksheet.
+Go here to learn about <a href=“#creating-a-new-worksheet”>Creating a new worksheet</a>.
 
 Once you have entered the lesson plan information, you can click save to add the lesson plan template to the library. 
 
@@ -321,7 +321,7 @@ A **worksheet** is an individual element of a lesson plan. A worksheet can be ad
 
 Worksheets are added to lesson plans, and serve as the individual steps in completing a lesson plan.
 
-Go here to learn about Adding worksheets to lesson plans.
+Go here to learn about <a href=“#adding-worksheets-to-lesson-plans”>Adding worksheets to lesson plans</a>.
 
 Changes to worksheets are global. This means that any change to a worksheet will be reflected in all lesson plans that currently contain the worksheet, as well as any student that is currently assigned the lesson plan containing the edited worksheet.
 
@@ -329,7 +329,7 @@ Attachments can be added to the worksheet by clicking ‘Choose file’, locatin
 
 Worksheets are also accessible from the student notebook.
 
-Go here to learn more about Using student notebooks.
+Go here to learn about <a href=“#using-student-notebooks”>Using student notebooks</a>.
 
 ##Adding worksheets to lesson plans
 Worksheets can be added to lesson plans by navigating to the lesson plan library. The lesson plan library is accessible by clicking on the Plans icon located in the global navigation.
@@ -348,7 +348,7 @@ To remove worksheets from a lesson plan, simply deselect the worksheet checkbox,
 
 If you have not yet created the worksheet, you can select ‘+ Create New Worksheet’ button from within the Select Worksheets window. You will be directed to the create worksheet screen.
 
-Go here to learn about Creating a new worksheet.
+Go here to learn about <a href=“#creating-a-new-worksheet”>Creating a new worksheet</a>.
 
 
 #Using student notebooks
@@ -359,7 +359,7 @@ Lesson plans are added to a student’s notebook by clicking the “Add Lesson P
 
 The ‘Select lesson plan’ window is populated by the lesson plan templates that were created under the Plans icon in the global navigation. 
 
-Go here to learn more about Customizing lesson plans.
+Go here to learn about <a href=“#customizing-lesson-plans”>Customizing lesson plans</a>.
 
 Once the lesson plans are added to the notebook, you can make a specific lesson plan ‘Active’. To activate a lesson plan, first click into the lesson plan listed in the student notebook, and check the ‘Make plan active for [student name]’ check box, then save.
 
@@ -397,14 +397,14 @@ Student’s will need to click the ‘Join video bridge’ link in the upper rig
 
 Teachers, whose students have been invited to a video session, will also receive a notification. They can join the video session by clicking the ‘Join video bridge’.
 
-If students or teachers do not receive a notification, or if they are having trouble starting a video session, go to the Video Troubleshooting article to learn more.
+If students or teachers do not receive a notification, or if they are having trouble starting a video session, go to the <a href=“#video-troubleshooting”>Video troubleshooting</a> article to learn more.
 
 Myskybridge video classrooms are powered by WebRTC (Real Time Communications). The application and video technology currently supports the Google Chrome browser.
 
 If you do not have Google Chrome installed, you can download and install the browser here:
 https://www.google.com/chrome/
 
-Go here to learn more about system requirements.
+Go here to learn about <a href=“#system-requirements”>System requirements</a>.
 ##Adding students to the classroom
 To add students to a classroom, a therapist will first visit the student list from the main navigation. The therapist will select one or more students to invite to the video call. 
 
@@ -412,7 +412,7 @@ To add students to a classroom, a therapist will first visit the student list fr
 
 After checking the Connect boxes for each of the students to invite to the call, you will click ‘Start Video Session’. You will be redirected to the video call, and will need to authorize Myskybridge to access your computers camera and microphone. You should recieve a notification asking permission. 
 
-If you do not receive a notification, or are having trouble starting a video session, you go to the Video Troubleshooting article to learn more.
+If you do not receive a notification, or are having trouble starting a video session, you go to the <a href=“#video-troubleshooting”>Video troubleshooting</a> article to learn more.
 
 All students will receive a notification that they have been invited to the video session. 
 
@@ -423,7 +423,7 @@ Student’s will need to click the ‘Join video bridge’ link in the upper rig
 
 Teachers, whose students have been invited to a video session, will also receive a notification. They can join the video session by clicking the ‘Join video bridge’.
 
-If students or teachers do not receive a notification, or if they are having trouble starting a video session, go to the Video Troubleshooting article to learn more.
+If students or teachers do not receive a notification, or if they are having trouble starting a video session, go to the <a href=“#video-troubleshooting”>Video troubleshooting</a> article to learn more.
 
 ##Joining a video session
 Therapist’s and teachers have the ability to join a video session already in progress. This can be achieved by navigating to the Video Bridge icon in the main navigation.
