@@ -1,0 +1,67 @@
+body
+    nav.top-bar.docs-bar.hide-for-small(data-topbar='data-topbar')
+        ul.title-area
+            li.name
+              h1
+                a(href='/')
+                    <img class="logo-img" alt="Msb logo msb logo horizontal blue bg" src="http://staging.myskybridge.com/assets/msb/msb-logo_msb logo horizontal blue-bg-50f144e89f5a3f4ca94ef0901d2eeb6b.svg" style="margin-left:-5px;margin:10px;" width="350">
+        section.top-bar-section
+            ul.right
+                li.divider
+                li 
+                   <a href="/">Getting Started</a>
+                li.divider
+                li 
+                    <a href="/docs.html">User Manual</a>
+                li.divider
+                li 
+                    a(href='#', data-reveal-id='support-ticket-modal') Get Help
+                            #support-ticket-modal.reveal-modal(data-reveal='data-reveal')
+                                h2 Support Ticket
+                                p.lead Please fill out the information and we will get back to you shortly.
+                                    form
+                                        .row
+                                            .large-12.columns
+                                              label
+                                                | Input Label
+                                                input(type='text', placeholder='large-12.columns')
+                                          .row
+                                            .large-4.columns
+                                              label
+                                                | Name 
+                                                input(type='text', placeholder='large-4.columns')
+                                            .large-4.columns
+                                              label
+                                                | Email
+                                                input(type='text', placeholder='large-4.columns')
+                                          .row
+                                            .large-12.columns
+                                              label
+                                                | Select Box
+                                                select
+                                                  option(value='husker') Husker
+                                                  option(value='starbuck') Starbuck
+                                                  option(value='hotdog') Hot Dog
+                                                  option(value='apollo') Apollo
+                                          .row
+                                            .large-6.columns
+                                              label Choose Your Favorite
+                                              input#pokemonRed(type='radio', name='pokemon', value='Red')
+                                              label(for='pokemonRed') Red
+                                              input#pokemonBlue(type='radio', name='pokemon', value='Blue')
+                                              label(for='pokemonBlue') Blue
+                                            .large-6.columns
+                                              label Check these out
+                                              input#checkbox1(type='checkbox')
+                                              label(for='checkbox1') Checkbox 1
+                                              input#checkbox2(type='checkbox')
+                                              label(for='checkbox2') Checkbox 2
+                                          .row
+                                            .large-12.columns
+                                              label
+                                                | Textarea Label
+                                                textarea(placeholder='small-12.columns')
+                                        input.button.large.rounded.warning( type='submit', name='submit')
+
+
+                                a.close-reveal-modal ×

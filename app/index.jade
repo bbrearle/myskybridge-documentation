@@ -1,0 +1,32 @@
+doctype html
+html(class="no-js", lang="en")
+    include ./template/header
+    include ./template/head
+        
+    section.main
+        .row
+            .large-10.medium-10.small-12.columns.large-centered
+                .help-section.intro-section
+                    h1 Welcome to the Help Center
+                    p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    div.text-center
+                        <iframe width="560" height="315" src="//www.youtube.com/embed/XKM90540rD4" frameborder="0" allowfullscreen></iframe>
+                    
+                    div(class="panel radius" style="margin-top:20px;")
+                        h2 F.A.Q.
+                        dl.accordion(data-accordion='data-accordion')
+                            dd.accordion-navigation
+                                a(href='#panel1') <span class="bold-plus">+</span> What are the requirments to run MSB?
+                                #panel1.content.active
+                                    include:markdown ./content/intro.md
+                              dd.accordion-navigation
+                                a(href='#panel2') <span class="bold-plus">+</span> How do I?
+                                #panel2.content
+                                  | Panel 2. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                              dd.accordion-navigation
+                                a(href='#panel3') <span class="bold-plus">+</span>Accordion 3
+                                #panel3.content
+                                  | Panel 3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+                
+        include ./template/footer

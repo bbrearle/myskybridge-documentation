@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation project</title>
+    <!-- build:css css/libraries.min.css-->
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
+    <!-- bower:css-->
+    <!-- endbower-->
+    <!-- endbuild-->
+    <!-- build:css css/app.min.css-->
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/app_override.css">
+    <!-- endbuild-->
+    <!-- build:js js/vendor/modernizr.min.js-->
+    <script src="bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild-->
+  </head>
+  <body>
+    <nav data-topbar="data-topbar" class="top-bar docs-bar hide-for-small">
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="/"><img class="logo-img" alt="Msb logo msb logo horizontal blue bg" src="http://staging.myskybridge.com/assets/msb/msb-logo_msb logo horizontal blue-bg-50f144e89f5a3f4ca94ef0901d2eeb6b.svg" style="margin-left:-5px;margin:10px;" width="350"></a></h1>
+        </li>
+      </ul>
+      <section class="top-bar-section">
+        <ul class="right">
+          <li class="divider"></li>
+          <li>
+             
+            <a href="/">Getting Started</a>
+          </li>
+          <li class="divider"></li>
+          <li>
+             
+            <a href="/docs.html">User Manual</a>
+          </li>
+          <li class="divider"></li>
+          <li> <a href="#" data-reveal-id="support-ticket-modal">Get Help
+              <div id="support-ticket-modal" data-reveal="data-reveal" class="reveal-modal">
+                <h2>Support Ticket</h2>
+                <p class="lead">Please fill out the information and we will get back to you shortly.
+                  <form>
+                    <div class="row">
+                      <div class="large-12 columns">
+                        <label>Input Label
+                          <input type="text" placeholder="large-12.columns">
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="large-4 columns">
+                        <label>Name 
+                          <input type="text" placeholder="large-4.columns">
+                        </label>
+                      </div>
+                      <div class="large-4 columns">
+                        <label>Email
+                          <input type="text" placeholder="large-4.columns">
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="large-12 columns">
+                        <label>Select Box
+                          <select>
+                            <option value="husker">Husker</option>
+                            <option value="starbuck">Starbuck</option>
+                            <option value="hotdog">Hot Dog</option>
+                            <option value="apollo">Apollo</option>
+                          </select>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="large-6 columns">
+                        <label>Choose Your Favorite</label>
+                        <input id="pokemonRed" type="radio" name="pokemon" value="Red">
+                        <label for="pokemonRed">Red</label>
+                        <input id="pokemonBlue" type="radio" name="pokemon" value="Blue">
+                        <label for="pokemonBlue">Blue</label>
+                      </div>
+                      <div class="large-6 columns">
+                        <label>Check these out</label>
+                        <input id="checkbox1" type="checkbox">
+                        <label for="checkbox1">Checkbox 1</label>
+                        <input id="checkbox2" type="checkbox">
+                        <label for="checkbox2">Checkbox 2</label>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="large-12 columns">
+                        <label>Textarea Label
+                          <textarea placeholder="small-12.columns"></textarea>
+                        </label>
+                      </div>
+                    </div>
+                    <input type="submit" name="submit" class="button large rounded warning">
+                  </form>
+                </p><a class="close-reveal-modal">×</a>
+              </div></a></li>
+        </ul>
+      </section>
+    </nav>
+  </body>
+  <section class="main">
+    <div class="row">
+      <div class="large-3 medium-4 columns">
+        <div class="sidebar">
+          <nav>
+            <div id="toc" class="ul side-nave"></div>
+          </nav>
+        </div>
+      </div>
+      <div class="large-9 medium-8 columns">
+        <div class="intro-section documentation-toc"><h1 id="getting-started">Getting Started</h1>
+<p>Myskybridge is a speech therapy tool that provides telepresence through a video chat feature, stores student profiles and key test dates, and organizes student progress through worksheets and lesson plans. Myskybridge tells you student progress, supports the student’s broader team of therapists, teachers and parents, and allows therapists to provide services regardless of geographic distance.</p>
+<p><img class="doc-img" src="/images/docs/msb-overview.png" /></p>
+<p>Myskybridge is comprised of several key sections:</p>
+<ol>
+<li>User administration: where all aspects of the user profiles are handled: includes Teachers, Students, Therapists, Administrators, and School.</li>
+<li>Students: collection of students available for any teacher, therapist or admin to invite to video chat, update worksheets and lesson plans, comment and track progress.</li>
+<li>Plans: list of lesson plans.</li>
+<li>Worksheets: list of worksheets.</li>
+<li>Video Bridge: list of previously create video classrooms.</li>
+</ol>
+<h2 id="user-types">User Types</h2>
+<p>The Myskybridge application has several user types. Each user type has different levels of access and capabilities:</p>
+<h3 id="admin-therapist-">Admin Therapist:</h3>
+<p>Add/Edit/Delete all user types (including create additional admins). 
+Perform all actions of a therapist.</p>
+<p>Go here to learn Adding a therapist.</p>
+<h3 id="therapist-">Therapist:</h3>
+<p>Add/Edit/Delete students, teachers, and schools. 
+Initiate video calls.
+Join in progress calls initiated by other therapists.
+Add/Edit/Delete lesson plans and worksheets (student notebook).
+Leave comments for a student.</p>
+<p>Go here to learn Adding a therapist.</p>
+<h3 id="teacher-">Teacher:</h3>
+<p>View all students from their assigned school.
+View student lesson plans and worksheets (student notebook).
+Join video calls initiated by therapist (assigned students only).
+Leave comments for a student</p>
+<p>Go here to learn Adding a teacher.</p>
+<h3 id="student-">Student:</h3>
+<p>View their own student profile.
+Join video calls initiated by therapist.
+View their own lesson plans and worksheets (student notebook).</p>
+<p>Go here to learn Adding a student.</p>
+<h2 id="schools">Schools</h2>
+<p>Schools are an organizational feature in Myskybridge. Schools are what group teachers and students together. They are also used as a sorting / filtering feature for therapists.</p>
+<p>Go here to learn Adding a school.</p>
+<h2 id="adding-a-student">Adding a student</h2>
+<p>Every student that is created must be assigned a teacher, school, and therapist. </p>
+<p>Only therapists can create students, so by default the student will be assigned to the therapist that is creating the student. You can select a different therapist be assigned to that student from the dropdown menu if the therapist has already been created in Myskybridge. </p>
+<p>Go here to learn Adding a therapist.</p>
+<p>Before you can create a student, you must add a teacher and school. The student profile will list the currently available students and school.</p>
+<p>Go here to learn Adding a teacher.
+Go here to learn Adding a school.</p>
+<p>To create your first student, visit the user admin page from the menu dropdown in the upper right hand corner of Myskybridge.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-13%2016.32.00.png" /></p>
+<p>From the top of the User Library page, you will click “+ New Student”. This will bring you to the student profile screen.  </p>
+<p>You will need to create a unique username and secret password. If the username is not unique you will receive a notification, and you will need to try another user name.</p>
+<p>Fill out the additional required information and additional profile fields, and click save. The student will now be listed in the student library.</p>
+<p>Go here to learn more about Managing students.</p>
+<h2 id="adding-a-teacher">Adding a teacher</h2>
+<p>To add a teacher, first you must create a school.</p>
+<p>Go here to learn Adding a school.</p>
+<p>To create your first teacher, visit the user admin page from the menu dropdown in the upper right hand corner of Myskybridge.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-13%2016.32.00.png"/></p>
+<p>From the top of the User Library page, you will click “+ New Teacher”. This will bring you to the teacher profile screen.  </p>
+<p>You will need to create a unique username and secret password. If the username is not unique you will receive a notification, and you will need to try another user name.</p>
+<p>Fill out the required information and additional profile fields, and click save. The teacher will now be listed in the user admin screen. The teacher will also be available to assign students.</p>
+<p>Go here to learn Editing/Deleting teachers</p>
+<h2 id="adding-a-therapist">Adding a therapist</h2>
+<p>To create a therapist, visit the user admin page from the menu dropdown in the upper right hand corner of Myskybridge.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-13%2016.32.00.png"/></p>
+<p>From the top of the User Library page, you will click “+ New Therapist”. This will bring you to the therapist profile screen.  </p>
+<p>You will need to create a unique username and secret password. If the username is not unique you will receive a notification, and you will need to try another user name.</p>
+<p>Fill out the required information and additional profile fields, and click save. </p>
+<p>You will have the option of making the therapist an Admin. You can toggle admin rights through selecting/deselecting the admin check-box.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-13%2016.48.10.png"/></p>
+<p>An administrator has the ability to Add/Edit/Delete therapists.</p>
+<p>Go here to learn about user types.</p>
+<h2 id="creating-a-video-classroom">Creating a video classroom</h2>
+<p>To create a classroom, a therapist will first visit the student list from the main navigation. The therapist will select one or more students to invite to the video call. </p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2012.17.21.png"/></p>
+<p>After checking the Connect boxes for each of the students to invite to the call, you will click ‘Start Video Session’. You will be redirected to the video call, and will need to authorize Myskybridge to access your computers camera and microphone. You should receive a notification asking permission. </p>
+<p>If you do not receive a notification, or are having trouble starting a video session, you can go to the Video Troubleshooting article to learn more.</p>
+<p>All students will receive a notification that they have been invited to the video session. </p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2012.19.31.png" /></p>
+<p>Student’s will need to click the ‘Join video bridge’ link in the upper right hand corner. This will direct each of the students into the video session. Students will also need to authorize Myskybridge to access their computer’s camera and microphone.</p>
+<p>Teachers, whose students have been invited to a video session, will also receive a notification. They can join the video session by clicking the ‘Join video bridge’.</p>
+<p>If students or teachers do not receive a notification, or if they are having trouble starting a video session, go to the Video Troubleshooting article to learn more.</p>
+<h1 id="user-profiles-user-admin">User Profiles / User Admin</h1>
+<p>User profiles are accessible in the user library. All existing users (therapists, teachers, and students) are listed by name, username, role, date created, created by, school (teachers and students), and grade (students).</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2012.36.49.png" /></p>
+<p>To access the profiles, locate the record you would like to view/edit/delete and click into the profile.</p>
+<h2 id="editing-deleting-teachers">Editing/Deleting teachers</h2>
+<p>To edit or delete a teacher, visit the user admin page from the menu dropdown in the upper right hand corner of Myskybridge.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-13%2016.32.00.png" /></p>
+<p>Locate and click the teacher record you would like to edit. You are now directed to the Profile / Edit Teacher screen. The profile information is broken out into 3 categories.</p>
+<p><strong>Required Information</strong></p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2013.00.49.png"/></p>
+<p>You will need to create a unique username and password. If the username is not unique, you will be prompted to enter a new user name. </p>
+<p><strong>Additional Information</strong></p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2013.00.58.png"/></p>
+<p>Additional information is the information a therapist may need to contact the teacher.</p>
+<p><strong>Profile Picture</strong>
+Myskybridge had the ability to upload a picture of the user.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2013.01.04.png"/>
+To upload a picture, click ‘Choose File’ locate the file you would like to use, click add.</p>
+<p>Once the profile information has been entered, click save to exit the profile screen.</p>
+<p>If you are deleting the user, click delete, you will be asked to confirm your action. This will permanently delete the user from the Myskybridge application.</p>
+<h2 id="editing-deleting-therapists">Editing/Deleting therapists</h2>
+<p>To edit or delete a teacher, visit the user admin page from the menu dropdown in the upper right hand corner of Myskybridge.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-13%2016.32.00.png" /></p>
+<p>Locate and click the therapist record you would like to edit. You are now directed to the Profile / Edit Therapist screen. The profile information is broken out into 3 categories.</p>
+<p><strong>Required User Information</strong></p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2013.12.45.png" /></p>
+<p>You will need to create a unique username and password. If the username is not unique, you will be prompted to enter a new user name. </p>
+<p><strong>Additional Information</strong></p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2013.14.15.png" /></p>
+<p>Additional information is the contact information and credentials of a therapist.</p>
+<p><strong>Profile Picture</strong>
+Myskybridge had the ability to upload a picture of the user.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2013.14.21.png" /></p>
+<p>To upload a picture, click ‘Choose File’ locate the file you would like to use, click add.</p>
+<p>Once the profile information has been entered, click save to exit the profile screen.</p>
+<p>If you are deleting the user, click delete, you will be asked to confirm your action. This will permanently delete the user from the Myskybridge application.</p>
+<h2 id="managing-students">Managing students</h2>
+<p>Managing students includes creating/editing/deleting student profile information, navigating the student list screen, accessing the student notebook, and inviting students to video sessions.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2013.21.08.png" />
+(If you are an Admin, you can also access student profiles from user admin page, accessible from the menu dropdown in the upper right hand corner of Myskybridge.)</p>
+<p>The students screen (available from the global navigation) shows a list of students currently accessible. Therapists will see all students in the application, teachers will see only those students assigned to them.</p>
+<p>From the top of the student screen, you can create a new student by clicking ‘+ Create New Student’. </p>
+<p>Go here to learn more about creating students.</p>
+<p>To make finding a specific student easier, Myskybridge has search and filtering capabilities. You can search by entering a keyword in the search bar and clicking the magnifying glass. The student list will update and only list students that meet the search criteria. You can also filter the student by school, or grade.</p>
+<p>Once you’ve located the student record, you can access their profile information, open the notebook, or invite the student to a video session.</p>
+<p>Go here to learn about creating a video classroom.
+Go here to learn about using student notebooks.</p>
+<p>Locate and click the student record you would like to edit. You are now directed to the Profile / Edit Student screen. The profile information is broken out into 3 categories.</p>
+<p><strong>Required User Information</strong></p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2013.35.36.png" /></p>
+<p>You will need to create a unique username and password. If the username is not unique, you will be prompted to enter a new user name. </p>
+<p><strong>Additional Information</strong></p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2013.36.45.png" /></p>
+<p>Additional information is the student contact/parent information and age.</p>
+<h4 id="-therapist-admin-"><strong>Therapist Admin</strong></h4>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2013.37.15.png" /></p>
+<p>Therapist admin information includes the grade, school, teacher and important assessment dates. Every student must have a School / Teacher / Therapist assigned before the profile can be saved.</p>
+<p>Go here to learn about adding a student.</p>
+<h4 id="profile-picture">Profile Picture</h4>
+<p>Myskybridge had the ability to upload a picture of the user.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2013.37.21.png" /></p>
+<p>To upload a picture, click ‘Choose File’ locate the file you would like to use, click add.</p>
+<p>Once the profile information has been entered, click save to exit the profile screen.</p>
+<p>If you are deleting the user, click delete, you will be asked to confirm your action. This will permanently delete the user from the Myskybridge application.</p>
+<h2 id="editing-deleting-schools">Editing/Deleting schools</h2>
+<p>In the Myskybridge application, schools serve as an organizational feature for both students and teachers. The school admin screen can be access via the user library.</p>
+<p>Go here to learn more about User Profiles / User Admin.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2012.03.02.png" /></p>
+<p>The school admin page is used to create/edit/delete schools. </p>
+<p>Go here to learn more about adding a school.</p>
+<p>To edit/delete a school, you first will locate the school in the Edit Schools list. Click on the school name. You will then have the ability to change the school name, or delete the school.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2014.25.33.png" /></p>
+<h1 id="using-myskybridge">Using Myskybridge</h1>
+<p>Myskybridge seeks to keep the students at the center of everything we do. To support the full student team of teachers, therapists, and parents, the student notebook is the place everything comes together.</p>
+<p><img class="doc-img" src="/images/docs/screenshot-staging.myskybridge.com%202014-10-14%2014-52-26.png" />
+The notebook is where all the lesson plans, worksheets, progress, and comments are kept for a specific student.</p>
+<p>Go here to learn about Creating a new lesson plan.
+Go here to learn about Creating a new worksheet.
+Go here to learn about Adding worksheets to lesson plans.</p>
+<h2 id="creating-a-new-lesson-plan">Creating a new lesson plan</h2>
+<p>A <strong>lesson plan</strong> is a therapist’s detailed description of the course of instruction for one session. A lesson plan can be added to multiple students. A lesson plan is made up of a collection of worksheets, and information pertaining to the target objective, grade level, and goal of the lesson plan.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2015.04.17.png" /></p>
+<p>Lesson plans can be created to be used for multiple students (template), or custom for a single student.</p>
+<p>Go here to learn about Customizing lesson plans.</p>
+<p>To create a lesson plan template (a lesson plan that is available to be used for multiple students), you will first click on the plans navigation menu.</p>
+<p>You will be directed to the lesson plan library. The lesson plan library will list all available lesson plan templates. To create a new lesson plan, click ‘+ Create New’.</p>
+<p>You will then enter the title, goal, target objective, and grade of lesson plan. If you have already created worksheets you can click ‘Select Worksheet’ and attach the appropriate collection of worksheets.</p>
+<p>Go here to learn more about Creating a new worksheet.</p>
+<p>Once you have entered the lesson plan information, you can click save to add the lesson plan template to the library. </p>
+<p>To view/edit/delete, locate the lesson plan in the library, click into the lesson plan and complete required action.</p>
+<h2 id="creating-a-new-worksheet">Creating a new worksheet</h2>
+<p>A <strong>worksheet</strong> is an individual element of a lesson plan. A worksheet can be added to multiple lesson plans, and ultimately to multiple students. A worksheet is made up of a title, detailed description, category, grade level, difficulty, and an attached document (pdf). </p>
+<p>Worksheets are added to lesson plans, and serve as the individual steps in completing a lesson plan.</p>
+<p>Go here to learn about Adding worksheets to lesson plans.</p>
+<p>Changes to worksheets are global. This means that any change to a worksheet will be reflected in all lesson plans that currently contain the worksheet, as well as any student that is currently assigned the lesson plan containing the edited worksheet.</p>
+<p>Attachments can be added to the worksheet by clicking ‘Choose file’, locating the file and selecting the file you wish to attached. Once uploaded users (therapists, students, and teachers) can view, download and print the attachment by clicking ‘View’ from within the worksheet.</p>
+<p>Worksheets are also accessible from the student notebook.</p>
+<p>Go here to learn more about Using student notebooks.</p>
+<h2 id="adding-worksheets-to-lesson-plans">Adding worksheets to lesson plans</h2>
+<p>Worksheets can be added to lesson plans by navigating to the lesson plan library. The lesson plan library is accessible by clicking on the Plans icon located in the global navigation.</p>
+<p>Once you’ve located the lesson plan, click into the lesson plan, and click ‘Select Worksheet’</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2015.04.17.png" /></p>
+<p>If the worksheet has already been created, you will see it listed in the Select Worksheets window.</p>
+<p>Check the box next to each of worksheets you would like to attached to the lesson plan. Once selected, you can click ‘Save Selection’ to add the worksheets to the lesson plan. You will see the selected worksheets listed within the lesson plan.</p>
+<p>To remove worksheets from a lesson plan, simply deselect the worksheet checkbox, and click ‘Save Selection’.</p>
+<p>If you have not yet created the worksheet, you can select ‘+ Create New Worksheet’ button from within the Select Worksheets window. You will be directed to the create worksheet screen.</p>
+<p>Go here to learn about Creating a new worksheet.</p>
+<h1 id="using-student-notebooks">Using student notebooks</h1>
+<p>Student notebooks are where the collection of lesson plans, worksheets, and comments are located for a specific student. </p>
+<p><img class="doc-img" src="/images/docs/screenshot-staging.myskybridge.com%202014-10-14%2014-52-26.png" />
+Lesson plans are added to a student’s notebook by clicking the “Add Lesson Plan” button. You will see the select lesson plan window open. In the select lesson plan window, you can select one, or multiple, lesson plans to be added to the student’s notebook.</p>
+<p>The ‘Select lesson plan’ window is populated by the lesson plan templates that were created under the Plans icon in the global navigation. </p>
+<p>Go here to learn more about Customizing lesson plans.</p>
+<p>Once the lesson plans are added to the notebook, you can make a specific lesson plan ‘Active’. To activate a lesson plan, first click into the lesson plan listed in the student notebook, and check the ‘Make plan active for [student name]’ check box, then save.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2016.04.49.png" /></p>
+<p>You will now see the lesson plan activated from with the student notebook. The student and teacher will also now see the active lesson plan.</p>
+<p>The active lesson plan will list all available worksheets, and current student progress. To quickly access attachments within the lesson plans’ worksheets, a user can click the attachment icon to view/print/download the document.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2016.10.23.png" /></p>
+<p>Once the student has finished all the worksheets from within a specific lesson plan, you can flag the lesson plan as complete. To do this, locate the lesson plan from the list within the student notebook, open the lesson plan, and select the ‘Plan is complete’ check box.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2016.17.23.png" /></p>
+<p>To deactivate a lesson plan, or remove a complete status from the lesson plan, simply open the lesson plan and deselect the corresponding check box.</p>
+<h2 id="customizing-lesson-plans">Customizing lesson plans</h2>
+<p>Once the lesson plan has been added to a student notebook, it is now assigned to a student, and changes to the master template will no longer affect the student’s version of the lesson plan.</p>
+<p>Similarly, if a lesson plan is edited, or deleted from within a student notebook, it will not affect the lesson plan template located in the library.</p>
+<h1 id="using-video-classrooms">Using video classrooms</h1>
+<p>Myskybridge video classrooms are where Therapists and meet one-on-one, or with multiple, students and teachers.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2016.47.31.png" /></p>
+<p>You will need to invite students to join a video session. Students will receive a notification that they have been invited to a video session.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2012.19.31.png" /></p>
+<p>Student’s will need to click the ‘Join video bridge’ link in the upper right hand corner. This will direct each of the students into the video session. Students will also need to authorize Myskybridge to access their computer’s camera and microphone.</p>
+<p>Teachers, whose students have been invited to a video session, will also receive a notification. They can join the video session by clicking the ‘Join video bridge’.</p>
+<p>If students or teachers do not receive a notification, or if they are having trouble starting a video session, go to the Video Troubleshooting article to learn more.</p>
+<p>Myskybridge video classrooms are powered by WebRTC (Real Time Communications). The application and video technology currently supports the Google Chrome browser.</p>
+<p>If you do not have Google Chrome installed, you can download and install the browser here:
+<a href="https://www.google.com/chrome/">https://www.google.com/chrome/</a></p>
+<p>Go here to learn more about system requirements.</p>
+<h2 id="adding-students-to-the-classroom">Adding students to the classroom</h2>
+<p>To add students to a classroom, a therapist will first visit the student list from the main navigation. The therapist will select one or more students to invite to the video call. </p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2012.17.21.png" /></p>
+<p>After checking the Connect boxes for each of the students to invite to the call, you will click ‘Start Video Session’. You will be redirected to the video call, and will need to authorize Myskybridge to access your computers camera and microphone. You should recieve a notification asking permission. </p>
+<p>If you do not receive a notification, or are having trouble starting a video session, you go to the Video Troubleshooting article to learn more.</p>
+<p>All students will receive a notification that they have been invited to the video session. </p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2012.19.31.png" /></p>
+<p>Student’s will need to click the ‘Join video bridge’ link in the upper right hand corner. This will direct each of the students into the video session. Students will also need to authorize Myskybridge to access their computer’s camera and microphone.</p>
+<p>Teachers, whose students have been invited to a video session, will also receive a notification. They can join the video session by clicking the ‘Join video bridge’.</p>
+<p>If students or teachers do not receive a notification, or if they are having trouble starting a video session, go to the Video Troubleshooting article to learn more.</p>
+<h2 id="joining-a-video-session">Joining a video session</h2>
+<p>Therapist’s and teachers have the ability to join a video session already in progress. This can be achieved by navigating to the Video Bridge icon in the main navigation.</p>
+<p>You will see a list of sessions already in progress. Click Join to access the session already in progress.</p>
+<h2 id="making-video-full-screen">Making video full screen</h2>
+<p>Once in a video session, you may want to make the video frame full screen. To do this you must first activate the video controls. You can do this by right clicking the video screen, clicking ‘Show Controls’.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2017.02.14.png" /></p>
+<p>This will toggle on/off the video controls. Once the video controls are turned on, you can select the full screen icon to enlarge the video frame.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2017.02.40.png" /></p>
+<p>To minimize the video back to it’s original size, click the icon once more, or hit the esc key.</p>
+<h2 id="ending-a-video-classroom-session">Ending a video classroom session</h2>
+<p>A video session will continue to be active until a therapist or teacher ends the session. The session can be ended from with in the video room by clicking ‘End Session’.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2017.05.39.png" /></p>
+<p>Video sessions can also be ended from the Video Session page via the global navigation.</p>
+<h2 id="video-troubleshooting">Video Troubleshooting</h2>
+<p>You must allow Myskybridge access to your computer’s camera and microphone. From within the chrome browser, you can select Allow on the browser notification that appears at the top of your screen.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2016.52.06.png" /></p>
+<p>If you do not receive the browser notification, it’s possible that you’ve denied access in the past. To prompt the notification, you can click on the small camera icon in your browser’s address bar, and toggle the radial to the ask again option.</p>
+<p><img class="doc-img" src="/images/docs/Screenshot%202014-10-14%2017.08.27.png" /></p>
+<p>Once this complete you will need to reload the page, and click ‘Allow’ once the notification appears.</p>
+<p>Ensure that you are using the most up to date version of the google chrome browser. If you do not have Google Chrome installed, you can download and install the browser here:
+<a href="https://www.google.com/chrome/">https://www.google.com/chrome/</a></p>
+<p>Ensure that your system meets the minimum requirements. You can test that your system supports Myskybridge by visiting: <a href="http://myskybridge.com/video-check/">http://myskybridge.com/video-check/</a></p>
+
+        </div>
+      </div>
+    </div>
+    <!-- build:js js/vendor/libraries.min.js-->
+    <!-- bower:js-->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/fastclick/lib/fastclick.js"></script>
+    <script src="../bower_components/toc/dist/toc.min.js"></script>
+    <!-- endbower-->
+    <!-- endbuild-->
+    <!-- build:js js/vendor/foundation.min.js-->
+    <script src="bower_components/foundation/js/foundation/foundation.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.abide.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.accordion.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.alert.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.clearing.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.dropdown.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.equalizer.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.interchange.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.joyride.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.magellan.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.offcanvas.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.orbit.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.reveal.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.slider.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.tab.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.tooltip.js"></script>
+    <script src="bower_components/foundation/js/foundation/foundation.topbar.js"></script>
+    <!-- endbuild-->
+    <!-- build:js js/app.min.js-->
+    <script src="js/app.js"></script>
+    <!-- endbuild-->
+  </section>
+</html>

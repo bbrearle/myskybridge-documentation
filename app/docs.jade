@@ -1,0 +1,18 @@
+doctype html
+html(class="no-js", lang="en")
+    include ./template/header
+    include ./template/head
+    
+    
+    section.main
+        .row
+            .large-3.medium-4.columns
+                .sidebar
+                    nav
+                        .ul.side-nave#toc
+
+            .large-9.medium-8.columns
+                .intro-section.documentation-toc
+                        include:markdown ./content/getting_started.md
+                
+        include ./template/footer
