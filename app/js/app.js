@@ -26,7 +26,7 @@ var app = (function(document, $) {
 
 })();
 
-$(document).foundation();
+
 
 $('#toc').toc({
     'selectors': 'h1,h2,h3', //elements to use as headings
