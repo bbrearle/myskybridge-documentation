@@ -20,7 +20,7 @@ The Myskybridge application has several user types. Each user type has different
 Add/Edit/Delete all user types (including create additional admins). 
 Perform all actions of a therapist.
 
-Go here to learn Adding a therapist.
+Go here to learn <a href="#adding-a-therapist">Adding a therapist</a>.
 
 ###Therapist: 
 Add/Edit/Delete students, teachers, and schools. 
